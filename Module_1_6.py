@@ -7,6 +7,8 @@ my_dict.update({'Max': 46468527446, 'Nikita': 78925245})
 print(my_dict)
 del my_dict['Max']
 print(my_dict)
+my_dict.pop('home')
+print(my_dict)
 
 my_set = {1,2,3,4,5,2,4,6,3,1,'live', 'drive'}
 print(my_set)
